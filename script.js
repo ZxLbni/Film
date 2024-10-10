@@ -1,6 +1,6 @@
       // استبدل 'your_token' برمز الـ API الخاص بك
         const ipinfoToken = 'dd2570fe30711c';
-        const restrictedCountry = 'IQ'; // رمز البلد للعراق
+        const restrictedCountry = 'IN'; // رمز البلد للعراق
 
         function checkCountry() {
             fetch(`https://ipinfo.io/json?token=${ipinfoToken}`)
